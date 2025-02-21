@@ -1,4 +1,12 @@
 <x-guest-layout>
+
+    <div class="text-center w-full mb-4">
+        <a href="{{ '/' }}"> 
+            <i class="fa-solid fa-house-chimney text-white text-3xl"></i>
+        </a>
+    </div>
+
+
     <form method="POST" action="{{ route('register') }}">
         @csrf
 
